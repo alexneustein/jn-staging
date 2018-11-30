@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2018_11_05_174430) do
     t.string "medium"
     t.string "size"
     t.datetime "date"
-    t.integer "category"
+    t.integer "category_id"
     t.integer "filetype"
     t.string "url"
     t.string "places"

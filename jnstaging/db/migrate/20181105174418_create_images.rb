@@ -5,7 +5,7 @@ class CreateImages < ActiveRecord::Migration[5.2]
       t.string :medium
       t.string :size
       t.datetime :date
-      t.integer :category
+      t.integer :category_id
       t.integer :filetype
       t.string :url
       t.string :places
