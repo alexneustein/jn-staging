@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: jnstaging_production
-  username: jnstaging
+  database: db8inj6rvl76gs
+  username: jgigmrjlmlbfbe
   password: <%= ENV['JNSTAGING_DATABASE_PASSWORD'] %>
